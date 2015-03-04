@@ -21,10 +21,18 @@
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   
+<script>
+var myWindow;
+
 function myFunction() {
     myWindow = window.open("", "myWindow", "width=200, height=100");
     myWindow.document.write("<p>This is 'myWindow'</p>");
 }
+
+function closeWin() {
+    myWindow.close();
+}
+</script>
 
     <!--<script src="http://cdn.rawgit.com/noelboss/featherlight/1.2.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 -->
